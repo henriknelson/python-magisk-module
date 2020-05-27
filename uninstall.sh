@@ -1,2 +1,2 @@
-rm -r /data/perl;
+rm -r /data/python;
 
