@@ -1,0 +1,8 @@
+#!/data/python/bin/bash
+
+bindir="$(dirname "$0")"
+execname="$(basename "$0")"
+
+libdir="/data/python/lib:/system/lib64:/system/lib"
+
+LD_LIBRARY_PATH="$libdir" LD_PRELOAD="/system/lib64/libm.so /system/lib64/libdl.so /system/lib64/libc.so" /data/python/bin/pip "$@"

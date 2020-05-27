@@ -1,0 +1,6 @@
+id=python-nelshh
+name=Python for Android
+version=3.8
+versionCode=5
+author=nelshh
+description=A static build of the latest Python binaries for Android (aarch64)
